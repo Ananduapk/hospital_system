@@ -1,0 +1,26 @@
+/* header.css */
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the brand */
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333; /* Dark grey color */
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the links */
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666; /* Medium grey color */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}

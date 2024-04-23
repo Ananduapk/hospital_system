@@ -1,0 +1,47 @@
+/* doctors.css */
+
+/* Container */
+.container {
+    padding-top: 50px; /* Add space at the top */
+}
+
+/* Title */
+h1 {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the title */
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333; /* Dark grey color */
+    margin-bottom: 20px;
+}
+
+/* Lead paragraph */
+.lead {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the lead paragraph */
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666; /* Medium grey color */
+    margin-bottom: 40px;
+}
+
+/* Doctors Carousel */
+.doctors-carousel {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* Hide scrollbar (IE and Edge) */
+}
+
+.doctor-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    transition: transform 0.5s ease; /* Add smooth transition */
+}
+
+.doctor-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

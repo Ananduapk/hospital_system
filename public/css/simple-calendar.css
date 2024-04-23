@@ -1,0 +1,100 @@
+.custom-calendar {
+    max-width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    aspect-ratio: 1; /* Maintain a 1:1 aspect ratio */
+}
+
+.custom-calendar {
+    width: 525px; /* Adjust width as needed */
+    height: 310px; /* Adjust height as needed */
+}
+
+.custom-calendar .hbContainer {
+    padding: 16px;
+}
+
+.custom-calendar .calendarYearMonth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.custom-calendar .calendarYearMonth p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.custom-calendar .calBtn {
+    user-select: none;
+    cursor: pointer;
+    background: #ccc; /* Grey background */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.custom-calendar .calBtn:hover {
+    background-color: #83c5ff; /* Light blue background on hover */
+    color: #fff; /* Ensure text remains white on hover */
+}
+
+.custom-calendar .calendarList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 4px;
+}
+
+.custom-calendar .calendarList li {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-calendar .calendarList li:hover {
+    background-color: #f0f0f0;
+}
+
+.custom-calendar .calendarList li.today {
+    background-color: #007bff; /* Color of the circle */
+    color: #fff;
+    width: 40px; /* Adjust the width */
+    height: 40px; /* Adjust the height */
+    border-radius: 75%; /* Ensures the circle shape */
+    line-height: 20px; /* Centers the text vertically */
+    text-align: center; /* Centers the text horizontally */
+}
+
+.custom-calendar .calendarList li.otherMonth {
+    color: #ccc;
+}
+.custom-calendar {
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.card {
+    /* Add some padding to the card */
+    padding: 1px;
+    /* Add a border to visually separate the cards */
+    border: 0px solid #ddd;
+    /* Set border radius to make corners rounded */
+    border-radius: 10px;
+    height: 100%;
+}
+/* Adjustments specific to the date card */
+.date-card {
+    margin-bottom: 20px; /* Add space at the bottom */
+}

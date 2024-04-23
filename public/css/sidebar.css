@@ -1,0 +1,24 @@
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    padding: 20px;
+    height: 100vh; /* Set height to 100% of viewport height */
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+.sidebar .nav-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+    color: #495057;
+}
+
+.sidebar .nav-link:hover {
+    color: #007bff;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
